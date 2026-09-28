@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ilham — Multimedia Engineering Technology</title>
+<meta name="description" content="Portofolio Ilham — Multimedia Engineering Technology, Politeknik Negeri Batam.">
+<meta property="og:title" content="Ilham — Multimedia Engineering Technology">
+<meta property="og:description" content="Portofolio Ilham — Multimedia Engineering Technology, Politeknik Negeri Batam.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2335D0BA'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='14' font-weight='700' fill='%2304110E' text-anchor='middle'%3EIL%3C/text%3E%3C/svg%3E">
+<!-- theme-init.js jalan duluan (sebelum CSS ke-paint) biar nggak ada
+     kedipan warna pas ganti antara mode gelap/terang -->
+<script src="js/theme-init.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="intro-overlay" id="introOverlay">
+  <div class="intro-content">
+    <div class="intro-frame">
+      <span class="vf-corner tl"></span><span class="vf-corner tr"></span>
+      <span class="rec-dot"></span>
+      <span class="intro-timecode" id="introTimecode">00:00:00:00</span>
+      <span class="vf-corner bl"></span><span class="vf-corner br"></span>
+    </div>
+    <p class="intro-hint">ketuk untuk melewati</p>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#beranda" class="brand"><span class="brand-mark">IL</span>Ilham</a>
+    <nav class="nav-links" id="navLinks" aria-label="Navigasi bagian">
+      <a href="#beranda">Beranda</a>
+      <a href="#pendidikan">Pendidikan</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#organisasi">Organisasi</a>
+      <a href="#kegiatan">Kegiatan</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#sertifikasi">Sertifikasi</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Ganti mode gelap/terang" aria-pressed="false">
+        <span class="theme-icon moon">☾</span>
+        <span class="theme-icon sun">☀</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+  <div class="progress-bar" id="progressBar"></div>
+</header>
+
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ticker-item">Juara 1 Pembimbing — Campus Magazine 2026</span><span class="ticker-sep">●</span>
+    <span class="ticker-item">IPK 3.90 / 4.00</span><span class="ticker-sep">●</span>
+    <span class="ticker-item">Juara 1 — International PBL Expo 2025</span><span class="ticker-sep">●</span>
+    <span class="ticker-item">Editor in Chief — Paradigma Student Press</span><span class="ticker-sep">●</span>
+    <span class="ticker-item">Content Creator &amp; Videographer — Luwis Photo Studio</span><span class="ticker-sep">●</span>
+    <span class="ticker-item">Public Relations Officer — Language Ambassador Riau Islands</span><span class="ticker-sep">●</span>
+    <span class="ticker-item">Juara 1 Pembimbing — Campus Magazine 2026</span><span class="ticker-sep">●</span>
+    <span class="ticker-item">IPK 3.90 / 4.00</span><span class="ticker-sep">●</span>
+    <span class="ticker-item">Juara 1 — International PBL Expo 2025</span><span class="ticker-sep">●</span>
+    <span class="ticker-item">Editor in Chief — Paradigma Student Press</span><span class="ticker-sep">●</span>
+    <span class="ticker-item">Content Creator &amp; Videographer — Luwis Photo Studio</span><span class="ticker-sep">●</span>
+    <span class="ticker-item">Public Relations Officer — Language Ambassador Riau Islands</span><span class="ticker-sep">●</span>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+
+    <!-- BERANDA -->
+    <section id="beranda" class="hero">
+      <div class="viewfinder-tag">
+        <span class="vf-corner tl"></span><span class="vf-corner tr"></span>
+        <span class="rec-dot"></span>REC — Portofolio Digital
+        <span class="vf-corner bl"></span><span class="vf-corner br"></span>
+      </div>
+      <h1 class="hero-name">Ilham</h1>
+      <p class="hero-role">
+        Lulusan <span class="hl">Multimedia Engineering Technology</span>, Politeknik Negeri Batam,
+        dengan pengalaman di balik kamera maupun di depan forum: memproduksi konten, memimpin organisasi,
+        dan berbicara di depan publik.
+      </p>
+      <p class="hero-desc">
+        Berpengalaman mengelola kepanitiaan dari balik layar dan senantiasa mengikuti perkembangan
+        teknologi kreatif digital terkini.
+      </p>
+      <div class="hero-cta">
+        <a href="#proyek" class="btn btn-primary">▶ Lihat Proyek</a>
+        <a href="#kontak" class="btn btn-ghost">Mari Berdiskusi</a>
+      </div>
+      <div class="board">
+        <div class="board-item">
+          <div class="board-label">Lokasi</div>
+          <div class="board-value">Batam, Kepulauan Riau</div>
+        </div>
+        <div class="board-item">
+          <div class="board-label">Status</div>
+          <div class="board-value">Lulusan Politeknik Negeri Batam · IPK 3.90</div>
+        </div>
+        <div class="board-item">
+          <div class="board-label">Fokus</div>
+          <div class="board-value">Videografi &amp; Public Relations</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PENDIDIKAN -->
+    <section id="pendidikan">
+      <p class="eyebrow">02 — JENJANG PENDIDIKAN</p>
+      <h2 class="section-heading">Pendidikan</h2>
+      <p class="section-sub">Lima pencapaian di Politeknik Negeri Batam, empat pada masa sekolah menengah.</p>
+
+      <div class="edu-block">
+        <div class="edu-head">
+          <h3 class="edu-school">Politeknik Negeri Batam</h3>
+          <span class="edu-date">Jun 2022 — Jun 2026</span>
+        </div>
+        <p class="edu-program">Bachelor of Applied Science, Multimedia Engineering Technology · IPK 3.90/4.00</p>
+
+        <div class="achieve-grid">
+          <div class="achieve-card doc-card" data-group="edu-polibatam" data-eyebrow="Prestasi · Polibatam" data-title="Juara 1 sebagai Pembimbing — Campus Magazine" data-meta="Polytechnic Creative Festival · September 2026" data-desc="Membimbing tim hingga meraih Juara 1 Kategori Campus Magazine pada Polytechnic Creative Festival, September 2026.">
+            <div class="media-wrap">
+              <div class="media-slot"><span class="media-slot-label">📷 / 🎬<br>taruh foto/video bukti di sini</span></div>
+              <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+            </div>
+            <div class="achieve-body">
+              <span class="medal-dot"></span>
+              <p class="achieve-text">Juara 1 sebagai Pembimbing, Kategori Campus Magazine, Polytechnic Creative Festival — September 2026.</p>
+            </div>
+          </div>
+
+          <div class="achieve-card doc-card" data-group="edu-polibatam" data-eyebrow="Prestasi · Polibatam" data-title="Juara 1 — International PBL Expo 2025" data-meta="Web and Mobile Application Category · 2025" data-desc="Mengembangkan Mahakarya VR Game, meraih Juara 1 pada Kategori Web and Mobile Application di International PBL Expo 2025.">
+            <div class="media-wrap">
+              <div class="media-slot"><img src="assets/sertifikat-pbl-expo-2025.jpg" alt="Juara 1 — International PBL Expo 2025"></div>
+              <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+            </div>
+            <div class="achieve-body">
+              <span class="medal-dot"></span>
+              <p class="achieve-text">1st Place – Web and Mobile Application Category, International PBL Expo 2025 - Developed Mahakarya VR Game.</p>
+            </div>
+          </div>
+
+          <div class="achieve-card doc-card" data-group="edu-polibatam" data-eyebrow="Prestasi · Polibatam" data-title="Juara 1 — Lomba Majalah Kampus" data-meta="Kategori Konten · Polytechnic Creative Festival 2024" data-desc="Meraih Juara 1 Kategori Konten pada Lomba Majalah Kampus, Polytechnic Creative Festival 2024.">
+            <div class="media-wrap">
+              <div class="media-slot"><img src="assets/sertifikat-pcf-2024.jpg" alt="Juara 1 — Lomba Majalah Kampus"></div>
+              <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+            </div>
+            <div class="achieve-body">
+              <span class="medal-dot"></span>
+              <p class="achieve-text">1st Place in Content Category, Campus Magazine Competition, Polytechnic Creative Festival 2024.</p>
+            </div>
+          </div>
+
+          <div class="achieve-card doc-card" data-group="edu-polibatam" data-eyebrow="Prestasi · Polibatam" data-title="Top 10 Finalis Duta Bahasa" data-meta="Provinsi Kepulauan Riau · 2024" data-desc="Masuk Top 10 Finalis Language Ambassador (Duta Bahasa) Provinsi Kepulauan Riau 2024.">
+            <div class="media-wrap">
+              <div class="media-slot"><span class="media-slot-label">📷 / 🎬<br>taruh foto/video bukti di sini</span></div>
+              <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+            </div>
+            <div class="achieve-body">
+              <span class="medal-dot"></span>
+              <p class="achieve-text">Top 10 Finalist of Language Ambassador, Riau Islands Province 2024.</p>
+            </div>
+          </div>
+
+          <div class="achieve-card doc-card" data-group="edu-polibatam" data-eyebrow="Prestasi · Polibatam" data-title="Juara 2 — Lomba Majalah Kampus" data-meta="Kategori Berita · Polytechnic Creative Festival 2023" data-desc="Meraih Juara 2 Kategori Berita pada Lomba Majalah Kampus, Polytechnic Creative Festival 2023.">
+            <div class="media-wrap">
+              <div class="media-slot"><span class="media-slot-label">📷 / 🎬<br>taruh foto/video bukti di sini</span></div>
+              <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+            </div>
+            <div class="achieve-body">
+              <span class="medal-dot"></span>
+              <p class="achieve-text">2nd Place in News Category, Campus Magazine Competition, Polytechnic Creative Festival 2023.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="edu-block">
+        <div class="edu-head">
+          <h3 class="edu-school">Madrasah Aliyah Negeri 2 Batam</h3>
+          <span class="edu-date">Jun 2019 — Apr 2022</span>
+        </div>
+        <p class="edu-program">Senior High School, Mathematics and Natural Sciences Major</p>
+
+        <div class="achieve-grid">
+          <div class="achieve-card doc-card" data-group="edu-man2" data-eyebrow="Prestasi · MAN 2 Batam" data-title="Juara 1 — Karya Tulis Ilmiah Nasional Sastra 4.0" data-meta="2021" data-desc="Meraih Juara 1 pada Lomba Karya Tulis Ilmiah Nasional Sastra 4.0 tahun 2021.">
+            <div class="media-wrap">
+              <div class="media-slot"><img src="assets/sertifikat-sastra-2021.jpg" alt="Juara 1 — Karya Tulis Ilmiah Nasional Sastra 4.0"></div>
+              <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+            </div>
+            <div class="achieve-body">
+              <span class="medal-dot"></span>
+              <p class="achieve-text">1st Place, National Scientific Writing Competition Sastra 4.0 – 2021.</p>
+            </div>
+          </div>
+
+          <div class="achieve-card doc-card" data-group="edu-man2" data-eyebrow="Prestasi · MAN 2 Batam" data-title="Top 50 Finalis — Madrasah Young Research Supercamp" data-meta="Kementerian Agama · 2021" data-desc="Masuk Top 50 Finalis Lomba Karya Tulis Ilmiah Nasional pada program Madrasah Young Research Supercamp oleh Kementerian Agama, 2021.">
+            <div class="media-wrap">
+              <div class="media-slot"><img src="assets/sertifikat-myres-2021.jpg" alt="Top 50 Finalis — Madrasah Young Research Supercamp"></div>
+              <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+            </div>
+            <div class="achieve-body">
+              <span class="medal-dot"></span>
+              <p class="achieve-text">Top 50 Finalist, National Scientific Writing Competition – Madrasah Young Research Supercamp by Ministry of Religious Affairs – 2021.</p>
+            </div>
+          </div>
+
+          <div class="achieve-card doc-card" data-group="edu-man2" data-eyebrow="Prestasi · MAN 2 Batam" data-title="Finalis — Lomba Debat Bahasa Indonesia" data-meta="2021" data-desc="Menjadi finalis pada Lomba Debat Bahasa Indonesia tahun 2021.">
+            <div class="media-wrap">
+              <div class="media-slot"><span class="media-slot-label">📷 / 🎬<br>taruh foto/video bukti di sini</span></div>
+              <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+            </div>
+            <div class="achieve-body">
+              <span class="medal-dot"></span>
+              <p class="achieve-text">Finalist, Indonesian Language Debate Competition – 2021.</p>
+            </div>
+          </div>
+
+          <div class="achieve-card doc-card" data-group="edu-man2" data-eyebrow="Prestasi · MAN 2 Batam" data-title="Peserta Lomba Esai — ISHOC 2022" data-meta="Madrasah Aliyah Insan Cendekia Kota Batam · Februari 2022" data-desc="Peserta Lomba Esai tingkat SMA/SMK/MA se-Provinsi Kepulauan Riau dalam event ISHOC (inSearch of Cendekia) 2022 yang diselenggarakan Madrasah Aliyah Insan Cendekia Kota Batam.">
+            <div class="media-wrap">
+              <div class="media-slot"><img src="assets/sertifikat-esai-ishoc-2022.jpg" alt="Sertifikat Peserta Lomba Esai ISHOC 2022"></div>
+              <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+            </div>
+            <div class="achieve-body">
+              <span class="medal-dot"></span>
+              <p class="achieve-text">Peserta Lomba Esai tingkat SMA/SMK/MA se-Provinsi Kepulauan Riau, ISHOC (inSearch of Cendekia) 2022 — Madrasah Aliyah Insan Cendekia Kota Batam.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PENGALAMAN KERJA -->
+    <section id="pengalaman">
+      <p class="eyebrow">03 — PENGALAMAN KERJA</p>
+      <h2 class="section-heading">Pengalaman</h2>
+      <p class="section-sub">Disusun dari peran terbaru ke yang terdahulu.</p>
+
+      <ul class="exp-list">
+        <li class="exp-item doc-card" data-group="pengalaman" data-eyebrow="Pengalaman Kerja" data-title="Freelance — Content Creator &amp; Videographer" data-meta="Luwis Photo Studio · Agu 2026 — Sekarang" data-desc="Managed comprehensive social media content strategies, encompassing planning, editing, and direct publication. Operated multimedia production equipment, integrating ground videography (Sony A7III, Canon series, gimbals, basic lighting) with aerial capture (DJI Mini 4 and Mini 5 Pro).">
+          <div class="exp-date">Agu 2026 — Sekarang</div>
+          <div>
+            <div class="exp-head-row" data-toggle>
+              <div>
+                <h3 class="exp-role">Freelance — Content Creator &amp; Videographer</h3>
+                <p class="exp-org">Luwis Photo Studio · Batam, Indonesia</p>
+              </div>
+              <button class="collapse-toggle detail-toggle" aria-expanded="false" aria-controls="detail-peng-1" aria-label="Buka detail dokumentasi">
+                <span class="chevron">⌄</span>
+              </button>
+            </div>
+            <div class="collapsible-body is-collapsed" id="detail-peng-1">
+              <ul class="exp-desc">
+                <li>Managed comprehensive social media content strategies, encompassing planning, editing, and direct publication.</li>
+                <li>Operated multimedia production equipment, integrating ground videography (Sony A7III, Canon series, gimbals, basic lighting) with aerial capture (DJI Mini 4 and Mini 5 Pro).</li>
+              </ul>
+              <div class="media-wrap">
+                <div class="media-slot compact"><span class="media-slot-label">📷 / 🎬<br>taruh dokumentasi kerja di sini</span></div>
+                <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="exp-item doc-card" data-group="pengalaman" data-eyebrow="Pengalaman Kerja" data-title="Content Creator, Videographer &amp; Asisten Admin Frontdesk" data-meta="Internship · Luwis Photo Studio · Mei 2025 — Apr 2026" data-desc="Responsible for planning content strategies, executing, editing, and publishing on social media, while also assisting front desk services by providing information, recommendations, and post-shoot technical explanations.">
+          <div class="exp-date">Mei 2025 — Apr 2026</div>
+          <div>
+            <div class="exp-head-row" data-toggle>
+              <div>
+                <h3 class="exp-role">Content Creator, Videographer &amp; Asisten Admin Frontdesk <span class="exp-role-note">(Internship)</span></h3>
+                <p class="exp-org">Luwis Photo Studio · Batam, Indonesia</p>
+              </div>
+              <button class="collapse-toggle detail-toggle" aria-expanded="false" aria-controls="detail-peng-2" aria-label="Buka detail dokumentasi">
+                <span class="chevron">⌄</span>
+              </button>
+            </div>
+            <div class="collapsible-body is-collapsed" id="detail-peng-2">
+              <ul class="exp-desc">
+                <li>Responsible for planning content strategies, executing, editing, and publishing on social media, while also assisting front desk services by providing information, recommendations, and post-shoot technical explanations.</li>
+              </ul>
+              <div class="media-wrap">
+                <div class="media-slot compact"><span class="media-slot-label">📷 / 🎬<br>taruh dokumentasi kerja di sini</span></div>
+                <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="exp-item doc-card" data-group="pengalaman" data-eyebrow="Pengalaman Kerja" data-title="Extracurricular Scientific Writing Instructor" data-meta="MTs Negeri 1 Batam · Jul 2022 — Jun 2024" data-desc="Mentored all students involved in extracurricular activities, providing support during both instructional sessions and competition readiness.">
+          <div class="exp-date">Jul 2022 — Jun 2024</div>
+          <div>
+            <div class="exp-head-row" data-toggle>
+              <div>
+                <h3 class="exp-role">Extracurricular Scientific Writing Instructor</h3>
+                <p class="exp-org">MTs Negeri 1 Batam · Batam, Indonesia</p>
+              </div>
+              <button class="collapse-toggle detail-toggle" aria-expanded="false" aria-controls="detail-peng-3" aria-label="Buka detail dokumentasi">
+                <span class="chevron">⌄</span>
+              </button>
+            </div>
+            <div class="collapsible-body is-collapsed" id="detail-peng-3">
+              <ul class="exp-desc">
+                <li>Mentored all students involved in extracurricular activities, providing support during both instructional sessions and competition readiness.</li>
+              </ul>
+              <div class="media-wrap">
+                <div class="media-slot compact"><span class="media-slot-label">📷 / 🎬<br>taruh dokumentasi kerja di sini</span></div>
+                <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ORGANISASI -->
+    <section id="organisasi">
+      <p class="eyebrow">04 — ORGANIZATIONAL EXPERIENCE</p>
+      <h2 class="section-heading">Organisasi</h2>
+      <p class="section-sub">Peran yang pernah dan sedang dijalani di luar pekerjaan utama.</p>
+
+      <ul class="exp-list">
+        <li class="exp-item doc-card" data-group="organisasi" data-eyebrow="Organisasi" data-title="Public Relations Officer" data-meta="Language Ambassador Association of Riau Islands Province · Nov 2024 — Sekarang" data-desc="Responsible for the design, publication, and media communication of the Duta Bahasa Association of Riau Islands Province.">
+          <div class="exp-date">Nov 2024 — Sekarang</div>
+          <div>
+            <div class="exp-head-row" data-toggle>
+              <div>
+                <h3 class="exp-role">Public Relations Officer (Nov 2024 – Nov 2026)</h3>
+                <p class="exp-org">Language Ambassador Association of Riau Islands Province</p>
+              </div>
+              <button class="collapse-toggle detail-toggle" aria-expanded="false" aria-controls="detail-org-1" aria-label="Buka detail dokumentasi">
+                <span class="chevron">⌄</span>
+              </button>
+            </div>
+            <div class="collapsible-body is-collapsed" id="detail-org-1">
+              <ul class="exp-desc">
+                <li>Responsible for the design, publication, and media communication of the Duta Bahasa Association of Riau Islands Province.</li>
+              </ul>
+              <div class="media-wrap">
+                <div class="org-gallery-wrap">
+                  <button class="org-gallery-nav prev" type="button" aria-label="Geser galeri ke kiri">‹</button>
+                  <div class="media-gallery org-gallery">
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                  </div>
+                  <button class="org-gallery-nav next" type="button" aria-label="Geser galeri ke kanan">›</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="exp-item doc-card" data-group="organisasi" data-eyebrow="Organisasi" data-title="Paradigma Student Press Organization" data-meta="Politeknik Negeri Batam · Feb 2023 — Feb 2026" data-desc="Organizational Advisor (Feb 2025–Feb 2026): strategic guidance, performance evaluation, and executive mentorship. Editor in Chief (Feb 2024–Feb 2025): end-to-end editorial operations. News Reporter (Feb 2023–Feb 2024): field reporting, article writing, and formal interviews.">
+          <div class="exp-date">Feb 2023 — Feb 2026</div>
+          <div>
+            <div class="exp-head-row" data-toggle>
+              <div>
+                <h3 class="exp-role">Paradigma Student Press Organization</h3>
+                <p class="exp-org">Politeknik Negeri Batam</p>
+              </div>
+              <button class="collapse-toggle detail-toggle" aria-expanded="false" aria-controls="detail-org-2" aria-label="Buka detail dokumentasi">
+                <span class="chevron">⌄</span>
+              </button>
+            </div>
+            <div class="collapsible-body is-collapsed" id="detail-org-2">
+              <ul class="exp-desc">
+                <li><strong>Organizational Advisor</strong> (Feb 2025 – Feb 2026) — Provided strategic guidance, performance evaluation, and executive mentorship to the management board.</li>
+                <li><strong>Editor in Chief</strong> (Feb 2024 – Feb 2025) — Directed end-to-end editorial operations encompassing reporting, editing, and digital content broadcasting.</li>
+                <li><strong>News Reporter</strong> (Feb 2023 – Feb 2024) — Executed campus journalism responsibilities, including field reporting, article writing, and conducting formal interviews.</li>
+              </ul>
+              <div class="media-wrap">
+                <div class="org-gallery-wrap">
+                  <button class="org-gallery-nav prev" type="button" aria-label="Geser galeri ke kiri">‹</button>
+                  <div class="media-gallery org-gallery">
+                    <div class="media-slot"><img src="assets/sertifikat-lpm-pimred-2024.jpg" alt="Sertifikat Pimpinan Redaksi Paradigma Student Press 2024"></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                    <div class="media-slot"><span class="media-slot-label">📷</span></div>
+                  </div>
+                  <button class="org-gallery-nav next" type="button" aria-label="Geser galeri ke kanan">›</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- KEGIATAN & PENGABDIAN -->
+    <section id="kegiatan">
+      <p class="eyebrow">05 — KEGIATAN &amp; PENGABDIAN</p>
+      <h2 class="section-heading">Kegiatan &amp; Pengabdian</h2>
+      <p class="section-sub">Kegiatan pengabdian masyarakat yang dilaksanakan bersama Paradigma Student Press.</p>
+
+      <div class="achieve-grid">
+        <div class="achieve-card doc-card" data-group="kegiatan" data-eyebrow="Kegiatan · 2023" data-title="Pengabdian Organisasi Mahasiswa" data-meta="Pulau Ngenang · 2023" data-desc="Kegiatan pengabdian organisasi mahasiswa yang dilaksanakan di Pulau Ngenang bersama Paradigma Student Press.">
+          <div class="media-wrap">
+            <div class="media-slot"><span class="media-slot-label">📷 / 🎬<br>taruh dokumentasi kegiatan di sini</span></div>
+            <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+          </div>
+          <div class="achieve-body">
+            <span class="medal-dot"></span>
+            <p class="achieve-text">Pengabdian Organisasi Mahasiswa — Pulau Ngenang, 2023.</p>
+          </div>
+        </div>
+
+        <div class="achieve-card doc-card" data-group="kegiatan" data-eyebrow="Kegiatan · 2024" data-title="Pengabdian Organisasi Mahasiswa" data-meta="Kampung Galang Baru · 2024" data-desc="Kegiatan pengabdian organisasi mahasiswa yang dilaksanakan di Kampung Galang Baru bersama Paradigma Student Press.">
+          <div class="media-wrap">
+            <div class="media-slot"><span class="media-slot-label">📷 / 🎬<br>taruh dokumentasi kegiatan di sini</span></div>
+            <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+          </div>
+          <div class="achieve-body">
+            <span class="medal-dot"></span>
+            <p class="achieve-text">Pengabdian Organisasi Mahasiswa — Kampung Galang Baru, 2024.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYEK -->
+    <section id="proyek">
+      <p class="eyebrow">06 — PROYEK</p>
+      <h2 class="section-heading">Proyek</h2>
+      <p class="section-sub">Dikelompokkan berdasarkan kategori. Kartu bergaris putus-putus merupakan slot yang belum terisi.</p>
+
+
+      <div id="projectsMount"></div>
+
+<div class="proj-category">
+        <div class="proj-cat-head">
+          <h3 class="proj-cat-title">Tugas Akhir<span class="proj-cat-note">Semester 8 · Karya Ilmiah</span></h3>
+        </div>
+        <div class="thesis-showcase">
+          <div class="thesis-viewer">
+            <iframe src="assets/tugas-akhir.pdf" title="Tugas Akhir — Analisis Efektivitas Konten Behind the Scenes"></iframe>
+          </div>
+          <div class="thesis-info">
+            <h3 class="thesis-title">Analisis Efektivitas Konten Behind the Scenes sebagai Strategi Branding pada Luwis Photo Studio</h3>
+            <p class="thesis-desc">Menganalisis efektivitas konten behind the scenes (BTS) sebagai strategi branding digital Luwis Photo Studio di TikTok dan Instagram, menggunakan metode campuran (observasi digital, kuesioner EPIC Model, dan wawancara semi-terstruktur). Hasil analisis EPIC Model menunjukkan skor komposit 4,381 — kategori Sangat Efektif, dengan dimensi Communication meraih skor tertinggi.</p>
+            <a class="btn btn-ghost thesis-download" href="assets/tugas-akhir.pdf" download>⬇ Unduh PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="keahlian">
+      <p class="eyebrow">07 — SKILLS AND LANGUAGE</p>
+      <h2 class="section-heading">Keahlian</h2>
+      <p class="section-sub">Kompetensi yang paling sering diterapkan, baik di lapangan maupun di balik layar.</p>
+
+      <div class="skill-cols">
+        <div>
+          <div class="skill-col-head">Soft Skills</div>
+          <div class="chip-list">
+            <span class="chip chip-featured">Public Speaking</span>
+            <span class="chip chip-featured">Communication</span>
+            <span class="chip chip-featured">Organizational Skills</span>
+            <span class="chip">Teamwork</span>
+            <span class="chip">Adaptability</span>
+            <span class="chip">Problem Solving</span>
+            <span class="chip">Critical Thinking</span>
+          </div>
+        </div>
+        <div>
+          <div class="skill-col-head">Hard Skills</div>
+          <div class="chip-list">
+            <span class="chip">Microsoft Office</span>
+            <span class="chip">Photography</span>
+            <span class="chip">Basic Adobe Premiere</span>
+            <span class="chip">Capcut Desktop</span>
+            <span class="chip">Canva Editing</span>
+            <span class="chip">Scriptwriting</span>
+            <span class="chip">Project Management</span>
+            <span class="chip">Digital Marketing</span>
+            <span class="chip">Writing and Editorial</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lang-row">
+        <span><strong>Indonesian</strong> — Active</span>
+        <span><strong>English</strong> — Passive</span>
+      </div>
+    </section>
+
+    <!-- SERTIFIKASI -->
+    <section id="sertifikasi">
+      <p class="eyebrow">08 — SERTIFIKASI</p>
+      <h2 class="section-heading">Sertifikasi</h2>
+      <p class="section-sub">Kartu bergaris putus-putus merupakan templat yang belum terisi.</p>
+
+      <div class="achieve-grid">
+        <div class="achieve-card doc-card" data-group="sertifikasi" data-eyebrow="Sertifikasi" data-title="Uji Kemahiran Berbahasa Indonesia (UKBI)" data-meta="Badan Pengembangan dan Pembinaan Bahasa · 2024" data-desc="Skor 625, Peringkat Kemahiran Unggul. Diterbitkan oleh Badan Pengembangan dan Pembinaan Bahasa, Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi RI, berlaku hingga 30 Mei 2026.">
+          <div class="media-wrap">
+            <div class="media-slot"><img src="assets/sertifikat-ukbi-2024.jpg" alt="Sertifikat UKBI 2024"></div>
+            <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+          </div>
+          <div class="achieve-body">
+            <span class="medal-dot"></span>
+            <p class="achieve-text">Uji Kemahiran Berbahasa Indonesia (UKBI) — Skor 625, Peringkat Unggul, 2024.</p>
+          </div>
+        </div>
+
+        <div class="achieve-card is-template doc-card" data-group="sertifikasi" data-eyebrow="Sertifikasi" data-title="Nama Sertifikasi" data-meta="Penerbit · Tahun" data-desc="Deskripsi singkat tentang sertifikasi ini.">
+          <div class="media-wrap">
+            <div class="media-slot"><span class="media-slot-label">📷 / 🎬<br>taruh gambar sertifikat di sini</span></div>
+            <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+          </div>
+          <div class="achieve-body">
+            <span class="medal-dot"></span>
+            <p class="achieve-text">Nama Sertifikasi — Penerbit, Tahun.</p>
+          </div>
+        </div>
+
+        <div class="achieve-card is-template doc-card" data-group="sertifikasi" data-eyebrow="Sertifikasi" data-title="Nama Sertifikasi" data-meta="Penerbit · Tahun" data-desc="Deskripsi singkat tentang sertifikasi ini.">
+          <div class="media-wrap">
+            <div class="media-slot"><span class="media-slot-label">📷 / 🎬<br>taruh gambar sertifikat di sini</span></div>
+            <button class="maximize-btn" aria-label="Perbesar">⤢</button>
+          </div>
+          <div class="achieve-body">
+            <span class="medal-dot"></span>
+            <p class="achieve-text">Nama Sertifikasi — Penerbit, Tahun.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak">
+      <p class="eyebrow">09 — KONTAK</p>
+      <h2 class="section-heading">Kontak</h2>
+      <p class="section-sub">Beberapa cara untuk terhubung.</p>
+
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:artha.ilham34@gmail.com">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">artha.ilham34@gmail.com</span>
+        </a>
+
+        <a class="contact-card" href="https://wa.me/628988790893" target="_blank" rel="noopener">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+          </span>
+          <span class="contact-label">WhatsApp</span>
+          <span class="contact-value">+62-898-8790-893</span>
+        </a>
+
+        <a class="contact-card" href="tel:+628988790893">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </span>
+          <span class="contact-label">Telepon</span>
+          <span class="contact-value">+62-898-8790-893</span>
+        </a>
+
+        <a class="contact-card" href="https://www.linkedin.com/in/ilhamaj342003" target="_blank" rel="noopener">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">linkedin.com/in/ilhamaj342003</span>
+        </a>
+
+        <a class="contact-card is-template" href="#" target="_blank" rel="noopener">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+            </svg>
+          </span>
+          <span class="contact-label">Instagram</span>
+          <span class="contact-value">@username — isi tautan &amp; handle di sini</span>
+        </a>
+
+        <a class="contact-card" href="https://www.cake.me/me/ilham-3d837e/portfolios" target="_blank" rel="noopener">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </span>
+          <span class="contact-label">Portofolio</span>
+          <span class="contact-value">cake.me/me/ilham-3d837e</span>
+        </a>
+      </div>
+    </section>
+
+    <footer>© <span id="year"></span> Ilham — dirancang dan dibangun secara manual, bukan hasil templat drag-and-drop.</footer>
+
+  </div>
+</main>
+
+<!-- Flash overlay: nyala sekilas pas tombol shutter dipencet -->
+<div class="flash-overlay" id="flashOverlay" aria-hidden="true"></div>
+
+<!-- Viewfinder HUD: bingkai ala kamera yang membingkai seluruh
+     halaman, aktif/nonaktif lewat tombol REC -->
+<div class="viewfinder-hud" id="viewfinderHud" aria-hidden="true">
+  <span class="hud-corner tl"></span>
+  <span class="hud-corner tr"></span>
+  <span class="hud-corner bl"></span>
+  <span class="hud-corner br"></span>
+  <div class="hud-readout hud-bl">
+    <span class="rec-dot"></span><span id="hudTimecode">00:00:00:00</span>
+  </div>
+  <div class="hud-readout hud-br" id="hudSection">BERANDA</div>
+</div>
+
+<!-- Kontrol ala kamera: shutter (jepret + flash + suara) & toggle REC -->
+<p class="cam-hint" id="camHint" role="status">🎥 Silakan coba fitur kamera interaktif ini.</p>
+<div class="camera-controls">
+  <button class="cam-btn cam-btn-rec" id="recToggleBtn" type="button" aria-pressed="false" aria-label="Aktifkan mode REC / viewfinder">
+    <span class="cam-pulse"></span>
+    <svg class="cam-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="1" y="5" width="14" height="14" rx="2"></rect>
+      <polygon points="23 7 16 12 23 17 23 7"></polygon>
+    </svg>
+  </button>
+  <button class="cam-btn cam-btn-shutter" id="shutterBtn" type="button" aria-label="Jepret halaman ini">
+    <span class="cam-pulse"></span>
+    <svg class="cam-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+      <circle cx="12" cy="13" r="4"></circle>
+    </svg>
+  </button>
+</div>
+<p class="cam-toast" id="camToast" role="status" aria-live="polite"></p>
+
+<!-- LIGHTBOX (dipakai buat tampilan "maksimal" semua .doc-card) -->
+<div class="custom-cursor" id="customCursor" aria-hidden="true">
+  <span class="cc-ring"></span>
+  <span class="cc-dot"></span>
+</div>
+
+<div class="hover-tip" id="hoverTip" aria-hidden="true">Klik untuk detail</div>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox-panel">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Tutup">×</button>
+    <div class="lightbox-media-col">
+      <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Sebelumnya">❮</button>
+      <div class="lightbox-media" id="lightboxMedia"></div>
+      <button class="lightbox-nav next" id="lightboxNext" aria-label="Berikutnya">❯</button>
+      <div class="lightbox-dots" id="lightboxDots"></div>
+    </div>
+    <div class="lightbox-info">
+      <span class="lightbox-eyebrow" id="lightboxEyebrow"></span>
+      <h3 class="lightbox-title" id="lightboxTitle"></h3>
+      <p class="lightbox-meta" id="lightboxMeta"></p>
+      <p class="lightbox-desc" id="lightboxDesc"></p>
+      <a class="lightbox-link" id="lightboxLink" target="_blank" rel="noopener">🔗 Lihat Proyek</a>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/projects-data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
